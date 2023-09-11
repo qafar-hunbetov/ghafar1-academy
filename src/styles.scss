@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@font-face {
+    font-family: 'Kanit';
+    src: url('/assets/fonts/Kanit-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Kanit Bold';
+    src: url('/assets/fonts/Kanit-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Kanit Extra';
+    src: url('/assets/fonts/Kanit-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Oswald';
+    src: url('/assets/fonts/Oswald-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Oswald Bold';
+    src: url('/assets/fonts/Oswald-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Titilium';
+    src: url('/assets/fonts/TitilliumWeb-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Titilium Bold';
+    src: url('/assets/fonts/TitilliumWeb-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'RobotoCondensed';
+    src: url('/assets/fonts/RobotoCondensed-Regular.ttf');
+  } 
+  
+  @font-face {
+    font-family: 'RobotoCondensed Bold';
+    src: url('/assets/fonts/RobotoCondensed-Bold.ttf');
+  }
+
+
+
+
+
+

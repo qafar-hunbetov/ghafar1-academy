@@ -1,0 +1,15 @@
+.row{
+    justify-content: center;
+}
+img{
+    width: 100%;
+    filter: grayscale(1.2);
+}
+.small{
+    width: 80%;
+}
+.col-md-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

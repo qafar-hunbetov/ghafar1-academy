@@ -1,0 +1,64 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin-top: 55px;
+
+}
+img{
+    width: 100%;
+}
+
+.list{
+margin-bottom: 100px;
+}
+
+h1{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-size: 40px;
+}
+.title{
+    font-family: 'Kanit Bold';
+    margin-top: 55px;
+    font-size: 20px;
+    color: rgb(199, 80, 21);
+}
+
+.title-extra{
+    font-family: 'Kanit Extra';
+}
+
+.baku-online{
+margin-left: 1425px;
+margin-bottom: 200px;
+}
+
+.picture{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Titilium Bold'; 
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: color .5s;
+}
+
+.picture:hover{
+    color: #e63619;
+}
+
+.news{
+    padding-left: 30px;
+}
+
+.assets{
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+
+.tag-online{
+    width: 105px;
+    height: 105px;
+}
