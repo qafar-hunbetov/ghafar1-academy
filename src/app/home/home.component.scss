@@ -1,6 +1,6 @@
 .background {
   width: 100%;
-  height: 200px;
+  height: 600px;
   background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
@@ -8,10 +8,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 600px;
 }
 .background2 {
   width: 100%;
-  height: 200px;
+  height: 600px;
   background-image: url("https://images.pexels.com/photos/11558251/pexels-photo-11558251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
@@ -19,10 +20,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 600px;
 }
 .background3 {
   width: 100%;
-  height: 200px;
+  height: 600px;
   background-image: url("https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
@@ -30,4 +32,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 600px;
+}
+
+.background-header{
+  font-size: 20px;
+  font-family: 'Oswald Bold';
+  padding-right: 270px;
+}
+
+.background-title{
+  font-size: 60px;
+  font-family: 'Oswald Bold';
+}
+
+.background-style{
+  width: 500px;
+  font-size: 18px;
+  color: white;
+  margin-right: 40px;
+}
+
+.btn-dark{
+  width: 175px;
+  height: 50px;
+  font-family: 'Oswald Bold';
+  font-size: 18px;
+}
+
+.btn-danger{
+  width: 175px;
+  height: 50px;
+  font-family: 'Oswald Bold';
+  font-size: 18px;
+}
+
+.icon-box{
+  width: 20px;
+  height: 20px;
+  background: rgba(105, 99, 99, 0.24);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .5s ;
+}
+.icon-box:hover{
+  background: #e63619;
+
+}
+.icon{
+  color: #fff;
+  font-size: 12px;
 }
