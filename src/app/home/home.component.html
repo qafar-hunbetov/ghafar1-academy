@@ -1,11 +1,17 @@
-<ngb-carousel #carousel [interval]="500">
+<ngb-carousel #carousel [interval]="50000">
     <ng-template ngbSlide>
       <div class="d-flex flex-column background ">
         <h1 class="background-header" style="color: #e63619">TAKING RIDES TO A NEWER LEVEL</h1>
         <h1 class="background-title" style="color: white">THE COMBINATION OF<br>POWER & PERFECTION</h1>
         <h1 class="background-style">Consectetur adipiscing elit sed ipsum eiusmod tempor ncdidunt labore et dolore magna aliqua quis ipsum pendisse</h1>
-        <button type="button" class="btn btn-danger">LEARN MORE</button>
-        <button type="button" class="btn btn-dark">MERCEDES</button>
+        <div class="row button-group">
+          <button type="button" class="btn btn-danger">
+            LEARN MORE</button>
+          <button type="button" class="btn btn-dark background-btn">
+            <div class="icon-box">
+              <fa-icon class="icon1" [icon]="faCaretRight"></fa-icon>
+            </div>MERCEDES</button>
+        </div>
       </div>
     </ng-template>
   
