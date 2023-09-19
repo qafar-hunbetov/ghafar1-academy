@@ -11,6 +11,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TitleComponent } from './title/title.component';
 import { HomeComponent } from './home/home.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { HomeMainComponent } from './home-main/home-main.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { MotoPagesComponent } from './moto-pages/moto-pages.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AboutComponent,
     FooterComponent,
     TitleComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    HomeMainComponent,
+    AboutUsComponent,
+    MotoPagesComponent
   ],
   imports: [
     MaterialModule,

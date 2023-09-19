@@ -1,11 +1,18 @@
-<ngb-carousel #carousel [interval]="500">
+<ngb-carousel #carousel [interval]="50000">
+  <app-header></app-header>
     <ng-template ngbSlide>
       <div class="d-flex flex-column background ">
         <h1 class="background-header" style="color: #e63619">TAKING RIDES TO A NEWER LEVEL</h1>
         <h1 class="background-title" style="color: white">THE COMBINATION OF<br>POWER & PERFECTION</h1>
         <h1 class="background-style">Consectetur adipiscing elit sed ipsum eiusmod tempor ncdidunt labore et dolore magna aliqua quis ipsum pendisse</h1>
-        <button type="button" class="btn btn-danger">LEARN MORE</button>
-        <button type="button" class="btn btn-dark">MERCEDES</button>
+        <div class="row background-button">
+        <button type="button" class="btn btn-danger"><div class="icon-box">
+          <fa-icon class="icon1" [icon]="faCaretRight"></fa-icon>
+        </div>LEARN MORE</button>
+        <button type="button" class="btn btn-dark"><div class="icon-box1">
+          <fa-icon class="icon2" [icon]="faCaretRight"></fa-icon>
+        </div>MERCEDES</button>
+        </div>
       </div>
     </ng-template>
   
@@ -14,6 +21,14 @@
         <h1 class="background-header" style="color: #e63619">TAKING RIDES TO A NEWER LEVEL</h1>
         <h1 class="background-title" style="color: white">THE COMBINATION OF<br>POWER & PERFECTION</h1>
         <h1 class="background-style">Consectetur adipiscing elit sed ipsum eiusmod tempor ncdidunt labore et dolore magna aliqua quis ipsum pendisse</h1>
+        <div class="row background-button">
+          <button type="button" class="btn btn-danger"><div class="icon-box">
+            <fa-icon class="icon1" [icon]="faCaretRight"></fa-icon>
+          </div>LEARN MORE</button>
+          <button type="button" class="btn btn-dark"><div class="icon-box1">
+            <fa-icon class="icon2" [icon]="faCaretRight"></fa-icon>
+          </div>MERCEDES</button>
+          </div>
       </div>
     </ng-template>
   
@@ -22,6 +37,14 @@
         <h1 class="background-header" style="color: #e63619">TAKING RIDES TO A NEWER LEVEL</h1>
         <h1 class="background-title" style="color: white">THE COMBINATION OF<br>POWER & PERFECTION</h1>
         <h1 class="background-style">Consectetur adipiscing elit sed ipsum eiusmod tempor ncdidunt labore et dolore magna aliqua quis ipsum pendisse</h1>
+        <div class="row background-button">
+          <button type="button" class="btn btn-danger"><div class="icon-box">
+            <fa-icon class="icon1" [icon]="faCaretRight"></fa-icon>
+          </div>LEARN MORE</button>
+          <button type="button" class="btn btn-dark"><div class="icon-box1">
+            <fa-icon class="icon2" [icon]="faCaretRight"></fa-icon>
+          </div>MERCEDES</button>
+          </div>
       </div>
     </ng-template>
   </ngb-carousel>

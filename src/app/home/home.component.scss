@@ -1,7 +1,7 @@
 .background {
   width: 100%;
   height: 600px;
-  background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/2611707/pexels-photo-2611707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@
 .background2 {
   width: 100%;
   height: 600px;
-  background-image: url("https://images.pexels.com/photos/11558251/pexels-photo-11558251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/4055176/pexels-photo-4055176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
 .background3 {
   width: 100%;
   height: 600px;
-  background-image: url("https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/4809802/pexels-photo-4809802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,6 +58,7 @@
   height: 50px;
   font-family: 'Oswald Bold';
   font-size: 18px;
+  position: relative;
 }
 
 .btn-danger{
@@ -65,22 +66,51 @@
   height: 50px;
   font-family: 'Oswald Bold';
   font-size: 18px;
+  position: relative;
 }
 
 .icon-box{
   width: 20px;
   height: 20px;
-  background: rgba(105, 99, 99, 0.24);
+  background: black;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   transition: background .5s ;
+  position: absolute;
+top: 30%;
+right: -5%;
 }
+
 .icon-box:hover{
   background: #e63619;
-
 }
+
 .icon{
   color: #fff;
   font-size: 12px;
 }
+
+.background-button{
+  gap: 40px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.icon-box1{
+  width: 20px;
+  height: 20px;
+  background: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background .5s ;
+  position: absolute;
+top: 30%;
+right: -5%;
+}
+
+.icon-box1:hover{
+  background: #e63619;
+}
+
