@@ -1,15 +1,15 @@
 
   .background3 {
     width: 100%;
-    height: 400px;
-    background-image: url("https://images.pexels.com/photos/4809802/pexels-photo-4809802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 300px;
+    background-image: url("https://images.pexels.com/photos/12351614/pexels-photo-12351614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 600px;
+
   }
   
   .background-header{
@@ -19,7 +19,8 @@
   }
   
   .background-title{
-    font-size: 60px;
+    font-size: 55px;
+    font-weight: 25px;
     font-family: 'Oswald Bold';
   }
   
@@ -27,7 +28,8 @@
     width: 500px;
     font-size: 18px;
     color: white;
-    margin-right: 40px;
+    margin-left: 330px;
+    margin-top: 25px;
   }
   
   .btn-dark{
@@ -90,3 +92,26 @@
   .icon-box1:hover{
     background: #e63619;
   }
+
+  .background-span{
+    color: #e63619;
+  }
+
+  .img-block{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+   padding-left: 300px;
+  }
+
+  .about-div{
+   font-size: 50px;
+   font-family: 'Oswald Bold' ;
+
+  }
+
+  .about-img{
+ 
+  }
+
