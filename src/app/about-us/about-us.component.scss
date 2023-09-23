@@ -118,4 +118,32 @@
 }
 .box-link {
   align-self: flex-end;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #222;
+  transition: all 0.2s ease;
+
+}
+
+.box-link:hover{
+text-decoration: underline;
+}
+
+h1{
+  font-size: 40px;
+
+}
+
+small{
+  font-style: italic;
+}
+
+.icon-header{
+  color: #e63619;
+}
+
+h6{
+  color: #777777;
+  font-weight: 300;
+
 }
