@@ -15,6 +15,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeMainComponent } from './home-main/home-main.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MotoPagesComponent } from './moto-pages/moto-pages.component';
+import { AboutForComponent } from './about-for/about-for.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MotoPagesComponent } from './moto-pages/moto-pages.component';
     HeaderComponent,
     HomeMainComponent,
     AboutUsComponent,
-    MotoPagesComponent
+    MotoPagesComponent,
+    AboutForComponent
   ],
   imports: [
     MaterialModule,
