@@ -74,8 +74,8 @@
   margin-top: 30px;
 }
 
-.about-img{
-margin-right: 100px;
+.about-img {
+  margin-right: 100px;
 }
 
 .icon-box1 {
@@ -113,10 +113,10 @@ margin-right: 100px;
   color: #efefef;
   width: 450px;
   font-weight: 150px;
-padding-top: 100px;
+  padding-top: 100px;
 }
 
-.about-div1{
+.about-div1 {
   font-size: 200px;
   font-family: "Oswald Bold";
   color: #efefef;
@@ -125,7 +125,10 @@ padding-top: 100px;
 }
 
 .box {
-  border-right: 1px solid black;
+  border-right: 1px solid #d3d3d3;
+}
+.box-without-border {
+  border-right: none;
 }
 .box-content {
   gap: 50px;
@@ -139,76 +142,70 @@ padding-top: 100px;
   text-decoration: none;
   color: #222;
   transition: all 0.2s ease;
-
 }
 
-.box-link:hover{
-text-decoration: underline;
+.box-link:hover {
+  text-decoration: underline;
 }
 
-h1{
+h1 {
   font-size: 40px;
-
 }
 
-small{
+small {
   font-style: italic;
 }
 
-.icon-header{
+.icon-header {
   color: #e63619;
 }
 
-h6{
+h6 {
   color: #777777;
   font-weight: 300;
-
 }
 
-.box-carousel{
+.box-carousel {
   font-size: 28px;
 }
 
-.box-icon{
-  padding-left: 100px;
-  padding-top: 75px;
+.about-boxes {
+  margin-bottom: 80px;
 }
 
-.box-hr{
+.box-hr {
   width: 60px;
   margin-top: 50px;
 }
 
-.box-p{
+.box-p {
   width: 90%;
   padding-top: 20px;
 }
 
-.box-title{
+.box-title {
   background-color: #18428c;
-    display: inline-block;
-    border: 2px solid #18428c;
-    border-radius: 3px;
-    color: #fff;
-    display: inline-block;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1.3px;
-    margin-top: 16px;
-    padding: 11px 32px;
-    text-decoration: none;
-    text-transform: uppercase;
-    outline: 0 !important;
-    transition: all 0.5s ease 0s;
-    margin-left: 100px;
+  display: inline-block;
+  border: 2px solid #18428c;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  margin-top: 16px;
+  padding: 11px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0 !important;
+  transition: all 0.5s ease 0s;
 }
 
-.box-title:hover{
- background: #fff;
- border: 2px solid black;
- color: black;
+.box-title:hover {
+  background: #fff;
+  border: 2px solid black;
+  color: black;
 }
-
 
 form {
   display: flex;
@@ -221,9 +218,7 @@ form {
   border-radius: 8px;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 label {
   font-weight: bold;
@@ -246,10 +241,4 @@ select:focus {
   border-color: blue;
 }
 
-.box-icon1{
-  width: 450px;
-  height: 550px;
-  margin-top: 75px;
-  margin-left: 170px;
-  background-image: url("https://images.pexels.com/photos/2611707/pexels-photo-2611707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
+

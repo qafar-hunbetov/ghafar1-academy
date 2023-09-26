@@ -16,7 +16,7 @@
       class="about-img"
     />
   </div>
-  <div class="row">
+  <div class="row about-boxes">
     <div class="col-md-3">
       <div class="box">
         <div class="box-header d-flex">
@@ -66,7 +66,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="box">
+      <div class="box box-without-border">
         <div class="box-header d-flex">
           <!-- -----fa-icon olacaq -->
           <fa-icon class="icon-header" [icon]="faBoxOpen"></fa-icon>
@@ -82,56 +82,66 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="box-icon">
-      <h1 class="box-carousel">Welcome to CarMaxel</h1>
-      <hr class="box-hr" />
-      <p class="box-p">
-        It is a beautiful day in this neighborhood a beautiful day for a
-        neighbor would you be mine could you be mine its a neighborly day in
-        this beautywood it is a beautiful day in this neighborhood a beautiful
-        day for a neighbor would you be mine could you be mine its a neighborly
-        day in this beautywood is neighborhood beautiful day for a neighbor
-        would you be mine.<br><br> It is a beautiful day in this neighborhood a
-        beautiful day for a neighbor would you be mine could you be mine its a
-        neighborly day in this beautywood it is a beautiful day in this
-        neighborhood a beautiful day.
-      </p>
-  </div>
-  <div>
-    <a href="#" class="box-title">Read More</a>
+  <div class="row justify-content-between">
+    <div class="col-md-6">
+      <div class="box-icon">
+        <h1 class="box-carousel text-left">Welcome to CarMaxel</h1>
+        <hr class="box-hr" />
+        <p class="box-p">
+          It is a beautiful day in this neighborhood a beautiful day for a
+          neighbor would you be mine could you be mine its a neighborly day in
+          this beautywood it is a beautiful day in this neighborhood a beautiful
+          day for a neighbor would you be mine could you be mine its a
+          neighborly day in this beautywood is neighborhood beautiful day for a
+          neighbor would you be mine.<br /><br />
+          It is a beautiful day in this neighborhood a beautiful day for a
+          neighbor would you be mine could you be mine its a neighborly day in
+          this beautywood it is a beautiful day in this neighborhood a beautiful
+          day.
+        </p>
+      </div>
+      <div>
+        <a href="#" class="box-title">Read More</a>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="box-icon1">
+        <form>
+          <h1>Contact Form</h1>
+          <label for="username">Username: </label>
+          <input
+            type="text"
+            name="username"
+            required
+            pattern="[a-zA-Z0-9]{5,}"
+          />
+          <br />
+
+          <label for="email"> Email: </label>
+          <input type="email" name="email" required />
+          <br />
+
+          <label for="password"> Password: </label>
+          <input
+            type="password"
+            name="password"
+            required
+            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+          />
+          <br />
+
+          <label for="age"> Age: </label>
+          <input type="number" name="age" min="18" max="99" />
+          <br />
+
+          <label for="color"> Favorite Color: </label>
+          <input type="color" name="color" />
+          <br />
+
+          <input type="submit" />
+        </form>
+      </div>
     </div>
   </div>
-<div class="col-md-6">
-  <div class="box-icon1">
-  <form>
-    <h1> Contact Form </h1>
-    <label for="username">Username: </label>
-    <input type="text" name="username" required pattern="[a-zA-Z0-9]{5,}" />
-    <br>
-
-    <label for="email"> Email: </label>
-    <input type="email" name="email" required />
-    <br />
-    
-    <label for="password"> Password: </label>
-    <input type="password" name="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
-    <br />
-    
-    <label for="age"> Age: </label>
-    <input type="number" name="age" min="18" max="99" />
-    <br />
-    
-    <label for="color"> Favorite Color: </label>
-    <input type="color" name="color" />
-    <br>
-    
-  
-    
-    <input type="submit" />
-  </form>
-</div>
 </div>
