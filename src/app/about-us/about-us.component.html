@@ -87,7 +87,7 @@
     <div class="col-md-6">
       <div class="box-icon">
         <h1 class="box-carousel text-left">Welcome to CarMaxel</h1>
-        <hr class="box-hr" />
+        <hr class="box-hr"/>
         <p class="box-p">
           It is a beautiful day in this neighborhood a beautiful day for a
           neighbor would you be mine could you be mine its a neighborly day in
@@ -105,43 +105,73 @@
         <a href="#" class="box-title">Read More</a>
       </div>
     </div>
-    <div class="col-md-5">
-      <div class="box-icon1">
-        <form>
-          <h1>Contact Form</h1>
-          <label for="username">Username: </label>
+    <div class="col-md-5 box-icon1 ">
+      
+        <form class="w-100 p-4" #myForm="ngForm" (submit)="openDialog(myForm.value)">
+          <h1 class="card-detail">Information</h1>
           <input
             type="text"
             name="username"
+            ngModel
             required
+            placeholder="Username"
             pattern="[a-zA-Z0-9]{5,}"
           />
           <br />
 
-          <label for="email"> Email: </label>
-          <input type="email" name="email" required />
-          <br />
 
-          <label for="password"> Password: </label>
+
+          <label for="email"></label>
           <input
-            type="password"
-            name="password"
-            required
-            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+          type="text"
+          name="email" 
+          ngModel 
+          required
+          placeholder="Email"
+          pattern="[a-zA-Z0-9]{5,}"
           />
-          <br />
+          <br/>
 
-          <label for="age"> Age: </label>
-          <input type="number" name="age" min="18" max="99" />
-          <br />
+          <label for="brand"></label>
+          <input
+            type="text"
+            name="brand"
+            ngModel
+            required
+            placeholder="Brand"
+            pattern="[a-zA-Z0-9]{5,}"
+          />
 
-          <label for="color"> Favorite Color: </label>
-          <input type="color" name="color" />
-          <br />
+          
+          <br/>
+ 
+          <label for="model"></label>
+          <input
+            type="text"
+            name="model"
+            ngModel
+            required
+            placeholder="Model"
+            pattern="[a-zA-Z0-9]{5,}"
+          />
+          <br>
 
-          <input type="submit" />
+          <input type="submit" class="box-input"/>
         </form>
       </div>
-    </div>
   </div>
 </div>
+<p-carousel
+  [autoplayInterval]="3000"
+  [circular]="true"
+  [value]="images"
+  [numVisible]="3"
+  [numScroll]="1"
+  [showIndicators] = false
+  [showNavigators] =false
+>
+  <ng-template let-image pTemplate="item">
+    <img [src]="image.source" [alt]="image.alt" style="width: 100%" class="image-card"/>
+  </ng-template>
+</p-carousel>
+

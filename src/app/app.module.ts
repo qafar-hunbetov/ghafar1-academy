@@ -16,7 +16,11 @@ import { HomeMainComponent } from './home-main/home-main.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MotoPagesComponent } from './moto-pages/moto-pages.component';
 import { AboutForComponent } from './about-for/about-for.component';
-
+import { ServicesComponent } from './services/services.component';
+import { CarouselModule } from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
+import { FormsModule } from '@angular/forms';
+import { DialogComponent } from './dialog/dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,14 +34,19 @@ import { AboutForComponent } from './about-for/about-for.component';
     HomeMainComponent,
     AboutUsComponent,
     MotoPagesComponent,
-    AboutForComponent
+    AboutForComponent,
+    ServicesComponent,
+    DialogComponent
   ],
   imports: [
     MaterialModule,
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    CarouselModule,
+    ButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
 @font-face {
     font-family: 'Kanit';
     src: url('/assets/fonts/Kanit-Regular.ttf');
@@ -54,7 +56,16 @@
     src: url('/assets/fonts/RobotoSerif_28pt_Condensed-Bold.ttf');
   } 
   
+
+  @font-face {
+    font-family: 'RobotoSlab';
+    src: url('/assets/fonts/RobotoSlab-Regular.ttf');
+  } 
   
+  @font-face {
+    font-family: 'RobotoSlab Bold';
+    src: url('/assets/fonts/RobotoSlab-Bold.ttf');
+  }
 
 
 
