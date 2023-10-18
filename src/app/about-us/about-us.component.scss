@@ -28,6 +28,7 @@
   color: white;
   margin-left: 330px;
   margin-top: 25px;
+  font-family: "Oswald Bold";
 }
 
 .btn-dark {
@@ -173,6 +174,7 @@ h6 {
 
 .box-carousel {
   font-size: 28px;
+  font-family: "Oswald Bold";
 }
 
 .about-boxes {
@@ -281,9 +283,24 @@ select:focus {
 
 .card-detail{
   text-align: center;
+  font-family: "Oswald Bold";
+}
+
+.class-band{
+  text-align: center;
+}
+
+.class-accardion{
+font-size: 28px;
+font-family: "Oswald Bold";
+margin-top: 90px;
 }
 
 .image-card{
-  width: 200px;
-  height: 455px;
+  height: 250px;
+  width: 300px;
+ gap: 25px;
+margin-left: 80px;
+margin-top: 100px;
+filter: grayscale(1);
 }

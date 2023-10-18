@@ -15,10 +15,10 @@ export class AboutUsComponent {
   faBoxOpen=faBoxOpen
 
   images = [
-        { source: '/assets/img/logo1.png', alt: 'Image 1' },
-        { source:  '/assets/img/logo2.png', alt: 'Image 2' },
-        { source: '/assets/img/auto-car2.png', alt: 'Image 3' },
-        { source: '/assets/img/auto-car3.png', alt: 'Image 3' },
+        { source: '/assets/img/car-12.png', alt: 'Image 1' },
+        { source:  '/assets/img/car-13.png', alt: 'Image 2' },
+        { source: '/assets/img/car-14.png', alt: 'Image 3' },
+        { source: '/assets/img/car-15.png', alt: 'Image 3' },
       ];
         
  

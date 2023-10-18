@@ -21,6 +21,8 @@ import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { FormsModule } from '@angular/forms';
 import { DialogComponent } from './dialog/dialog.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,8 @@ import { DialogComponent } from './dialog/dialog.component';
     MotoPagesComponent,
     AboutForComponent,
     ServicesComponent,
-    DialogComponent
+    DialogComponent,
+    FaqsComponent
   ],
   imports: [
     MaterialModule,
@@ -46,7 +49,8 @@ import { DialogComponent } from './dialog/dialog.component';
     NgbModule,
     CarouselModule,
     ButtonModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

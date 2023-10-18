@@ -75,19 +75,7 @@
   padding-top: 10px;
 }
 
-.icon1{
-  width: 80px;
-  height: 80px;
-  display: inline-block;
-  text-align: center;
-  border: 2px solid #18428c;
-  line-height: 76px;
-  color: #f85c37;
-  font-size: 26px;
-  border-radius: 100%;
-  left: 0;
-  top: 7px;
-}
+
 
 .footer{
   margin-left: 180px;
@@ -97,4 +85,39 @@
 .footer1{
   margin-top: 30px;
   margin-left: 20px;
+}
+.icon-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #3EABC6;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+fa-icon {
+  display: inline-block;
+  line-height: 76px;
+  color: #f85c37;
+  font-size: 26px;
+  transition: all 0.5s ease; /* Apply the same transition here */
+}
+
+.icon-box:hover {
+  background: #3EABC6;
+}
+
+.icon-box:hover fa-icon {
+  color: #fff;
+  transform: rotate(360deg);
+}
+.background-image{
+  background-image: url("https://images.pexels.com/photos/188022/pexels-photo-188022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.image-jpg{
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
 }
