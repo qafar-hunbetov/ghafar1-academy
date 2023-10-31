@@ -23,6 +23,9 @@ import { FormsModule } from '@angular/forms';
 import { DialogComponent } from './dialog/dialog.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './contact/contact.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { FooterMainComponent } from './footer-main/footer-main.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +42,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutForComponent,
     ServicesComponent,
     DialogComponent,
-    FaqsComponent
+    FaqsComponent,
+    ContactComponent,
+    FooterMainComponent
   ],
   imports: [
     MaterialModule,
@@ -50,7 +55,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CarouselModule,
     ButtonModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

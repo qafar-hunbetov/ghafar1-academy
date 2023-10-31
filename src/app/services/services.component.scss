@@ -20,7 +20,7 @@
     width: 500px;
     font-size: 18px;
     color: white;
-    margin-left: 330px;
+    margin-left: 370px;
     margin-top: 25px;
     font-family: "Oswald Bold";
   }
@@ -121,3 +121,115 @@ fa-icon {
   height: auto;
   margin-top: 75px;
 }
+
+.container-fluid{
+  margin-left: 170px;
+  gap: 25px;
+  margin-top: 80px;
+}
+
+.filter{
+  margin-left: 45px;
+
+}
+
+img{
+  width: 100%;
+}
+.row{
+  margin-bottom: 25px;
+}
+.filter img {
+  filter: grayscale(1.2);
+}
+
+.class-band{
+  text-align: center;
+}
+
+.class-accardion{
+  font-size: 35px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 90px;
+  }
+  
+  .class-accardion1{
+  margin-top: 50px;
+  }
+
+  .class-book{
+   text-align: center;
+   font-family: 'Roboto Slab', serif;
+   color: #222;
+   font-weight: bold;
+   font-size: 18px;
+   text-transform: uppercase;
+   letter-spacing: 0.72px;
+   line-height: 28px;
+  }
+
+  .class-house{
+  color: #222;
+  font-size: 13px;
+  padding: 6px 14px;
+  border: 1px solid #a0a0a0;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 3px 10px;
+  }
+
+  .class-span{
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+
+  .content{
+    color: #222;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 13px;
+    letter-spacing: 0.52px;
+    margin-left: 35px;
+  }
+
+  .content-span{
+    color: #f85c37;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+
+  .box-title {
+    background-color: #fff;
+    display: inline-block;
+    border: 2px solid #3EABC6;
+    border-radius: 3px;
+    color: #3EABC6;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin-top: 16px;
+    margin-left: 30px;
+    padding: 11px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0 !important;
+    transition: all 0.5s ease 0s;
+  }
+
+  .box-title:hover {
+    background: #3EABC6;
+    border: 2px solid #3EABC6;
+    color: #fff;
+  }
+
+  .collage{
+    margin-left: 50px;
+    margin-top: 45px;
+  }
+
+  .header-img{
+    width: 170px;
+    height: 16px;
+  }
