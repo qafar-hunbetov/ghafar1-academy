@@ -1,54 +1,52 @@
-.choose{
-    text-align: center;
+.choose {
+  text-align: center;
 }
 
-.choose-desc{
-    color: #e63619;
-    font: normal 700 18px/normal Oswald;
-    text-transform: uppercase;
-    display: block;
-    margin-top: 20px;
-    font-size: 17px;
+.choose-desc {
+  color: #e63619;
+  font: normal 700 18px / normal Oswald;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
 }
 
-.choose-title{
-    margin: 0;
-    color: #000000;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.25;
-    text-transform: uppercase;
-    font-family: 'Oswald Bold' ;
-    font-size: 40px;
-    padding-top: 15px;
+.choose-title {
+  margin: 0;
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  font-family: "Oswald Bold";
+  font-size: 40px;
+  padding-top: 15px;
 }
 
-.choose-text{
-    color: rgb(106, 107, 103);
-    margin-top: 20px;
+.choose-text {
+  color: rgb(106, 107, 103);
+  margin-top: 20px;
 }
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
-ul{
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
+ul {
   margin: 0;
   padding: 0;
 }
-ul li{
+ul li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.wrapper{
+.wrapper {
   width: 840px;
   margin: 0 auto;
 }
-.vehicle-card{
+.vehicle-card {
   position: relative;
   display: inline-block;
-  width: 240px;  
   height: 335px;
+  width: 100%;
   overflow: visible;
   z-index: 1;
   border-radius: 2px;
@@ -65,124 +63,133 @@ ul li{
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-
-.vehicle-card .details{
+.vehicle-card .details {
   position: absolute;
-  height: 335px;
-  width: 240px;
+  height: 400px;
+  width: 100%;
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-.vehicle-card .details:hover{
-  -webkit-transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+.vehicle-card .details:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-  height: 490px;
-  width: 240px;
+  height: 525px;
 }
-.vehicle-card .info{
+
+.vehicle-card .info {
   margin: 10px;
 }
-.vehicle-card .ctas{
+.vehicle-card .ctas {
   margin: 10px 0;
 }
-.thumb-gallery{
-  height: 150px;
+.thumb-gallery {
+  display: flex;
+  justify-content: center;
+  height: 220px;
 }
-.thumb-gallery img{
-  position: absolute; 
-  width: 240px;
+.thumb-gallery img {
+  position: absolute;
+  width: 90%;
 }
-.thumb-gallery img.first{
+.thumb-gallery img.first {
   opacity: 1;
 }
-.vehicle-card:hover .thumb-gallery img.second{
+.vehicle-card:hover .thumb-gallery img.second {
   opacity: 0;
-  -webkit-transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.row{
+  margin-bottom: 100px;
 }
 /*styling*/
-.stars{
+.stars {
   margin: 10px 0;
 }
 .star polygon {
-  fill: #E20000;
+  fill: #e20000;
 }
-.vehicle-card h3{
+.vehicle-card h3 {
   margin: 0;
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
 }
-.vehicle-card .price span{
+.vehicle-card .price span {
   font-family: "Helvetica", Arial, sans-serif;
   color: #999;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
-.vehicle-card .price h4{
+.vehicle-card .price h4 {
   margin: 0;
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   color: #222;
   font-size: 1.25rem;
 }
-.vehicle-card .desc p{
+.vehicle-card .desc p {
   color: #666;
   font-size: 1rem;
   line-height: 1.25rem;
 }
-.vehicle-card .specs{
+.vehicle-card .specs {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   margin: 20px 0;
-  padding: 10px 0;  
+  padding: 10px 0;
 }
-.specs .spec{
+.specs .spec {
   display: inline-block;
   margin-right: 10px;
 }
-.specs span{
+.specs span {
   font-family: "Helvetica", Arial, sans-serif;
   color: #999;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
-.specs p{
+.specs p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   margin: 0;
 }
-.specs p span{
-  font-size: .75rem;
+.specs p span {
+  font-size: 0.75rem;
   margin-left: 2px;
   font-weight: normal;
 }
-.btn{
+.btn {
   display: block;
   padding: 0 10px;
   float: left;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-family: "Helvetica", Arial, sans-serif;
   text-decoration: none;
   height: 30px;
   width: 100px;
   text-align: center;
   border-radius: 2px;
-  font-weight: bold;  
+  font-weight: bold;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
 }
-.primary{
+.primary {
   background-color: #1383b3;
   color: #fff;
   margin-right: 10px;
   line-height: 30px;
 }
-.secondary{
+.secondary {
   background-color: #fff;
   color: #1383b3;
-  border: 2px solid #1383b3;  
+  border: 2px solid #1383b3;
   line-height: 26px;
+}
+
+.container {
+  margin-bottom: 100px;
 }
