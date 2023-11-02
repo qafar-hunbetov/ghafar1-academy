@@ -26,6 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { FooterMainComponent } from './footer-main/footer-main.component';
+import { SubmitDialogComponent } from './submit-dialog/submit-dialog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +45,8 @@ import { FooterMainComponent } from './footer-main/footer-main.component';
     DialogComponent,
     FaqsComponent,
     ContactComponent,
-    FooterMainComponent
+    FooterMainComponent,
+    SubmitDialogComponent
   ],
   imports: [
     MaterialModule,

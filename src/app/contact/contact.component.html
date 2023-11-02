@@ -9,18 +9,27 @@
 <body>
  
     <div class="contact-box">
-      <div class="left"></div>
+      
+      <div class="left">
+  
       <div class="right">
         <h2 class="class-contact">Contact</h2>
-        <input type="text" class="field" placeholder="Your Name">
-        <input type="text" class="field" placeholder="Your Email">
-        <input type="text" class="field" placeholder="Phone">
-        <textarea placeholder="Message" class="field"></textarea>
         <div>
-          <button class="box-title">Read More</button>
+          <form
+        class="w-100 p-4"
+        #myForm="ngForm"
+        (submit)="openDialog(myForm.value)"
+      >
+            <input type="text" required name="name" ngModel class="field" placeholder="Your Name">
+            <input type="text" required name="email" ngModel class="field" placeholder="Your Email">
+            <input type="text" required name="phone" ngModel class="field" placeholder="Phone">
+            <textarea placeholder="Message" required ngModel name="message" class="field"></textarea>
+            <button class="box-title" type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
+  </div>
  
 </body>
 

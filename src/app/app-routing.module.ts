@@ -14,7 +14,6 @@ const routes: Routes = [
   { path: 'faqs', component: FaqsComponent },
   { path: 'contact', component: ContactComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
-
 ];
 
 @NgModule({
