@@ -131,15 +131,13 @@ fa-icon {
 
 .filter{
   margin-left: 45px;
-
+  margin-bottom: 200px;
 }
 
 img{
   width: 100%;
 }
-.row{
-  margin-bottom: 25px;
-}
+
 .filter img {
   filter: grayscale(1.2);
 }
@@ -240,3 +238,37 @@ img{
     height: 16px;
     margin-top: 10px;
   }
+
+  .class-card{
+    margin-bottom: 150px;
+  }
+
+  .background-carousel{
+    background-image: url(https://demoxml.com/html/carmax/images/partner-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .overlay{
+    background-color: rgba(0,0,0,0.70);
+    
+  }
+
+  .speed-image{
+    width: 123px;
+    height: 69px;
+  }
+
+  .speed-text{
+    color: #fff;
+    margin: 0;
+  }
+
+.speed-title{
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}

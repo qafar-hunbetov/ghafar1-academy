@@ -304,8 +304,7 @@ margin-top: 50px;
   height: 250px;
   width: 300px;
  gap: 25px;
-margin-left: 80px;
-margin-top: 100px;
+
 filter: grayscale(1);
 }
 
@@ -328,3 +327,45 @@ img{
 .filter img {
   filter: grayscale(1.2);
 }
+
+.class-title{
+  text-align: center;
+}
+
+.class-light{
+  font-size: 28px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 90px;
+  letter-spacing: 0.56px;
+  color: #222222;
+  }
+
+  .class-img1{
+    width: 170px;
+    height: 16px;
+    margin-bottom: 10px;
+  }
+
+  .class-light1{
+    margin-top: 25px;
+    }
+
+    .class-card1{
+      margin-bottom: 150px;
+    }
+
+    .collage1{
+      margin-left: 50px;
+      margin-top: 45px;
+    }
+
+    .background-carousel{
+      background-image: url(https://demoxml.com/html/carmax/images/partner-bg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .overlay{
+      background-color: rgba(0,0,0,0.70);
+    }

@@ -1,3 +1,10 @@
+.choose-center{
+margin-top: 80px;
+}
+.choose-img{
+margin-bottom: 15px;
+}
+
 .choose {
   text-align: center;
 }
@@ -7,7 +14,7 @@
   font: normal 700 18px / normal Oswald;
   text-transform: uppercase;
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 17px;
 }
 
@@ -42,6 +49,9 @@ ul li {
   width: 840px;
   margin: 0 auto;
 }
+
+
+
 .vehicle-card {
   position: relative;
   display: inline-block;
@@ -50,7 +60,7 @@ ul li {
   overflow: visible;
   z-index: 1;
   border-radius: 2px;
-  margin: 0 20px 20px 0;
+
 }
 
 .vehicle-card:hover {
@@ -92,7 +102,7 @@ ul li {
 }
 .thumb-gallery img {
   position: absolute;
-  width: 90%;
+  width: 100%;
 }
 .thumb-gallery img.first {
   opacity: 1;
@@ -192,4 +202,41 @@ ul li {
 
 .container {
   margin-bottom: 100px;
+}
+
+.tag-online{
+  width: 105px;
+  height: 105px;
+}
+
+.news{
+  padding-left: 30px;
+}
+
+.picture{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: 'Titilium Bold'; 
+  font-size: 18px;
+  margin-bottom: 20px;
+  transition: color .5s;
+}
+
+.picture:hover{
+  color: #e63619;
+}
+
+.assets{
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+}
+
+.first{
+  width: 80%;
+  height: 215px;
+}
+
+.second{
+  width: 90%;
+  height: 300px;
 }
